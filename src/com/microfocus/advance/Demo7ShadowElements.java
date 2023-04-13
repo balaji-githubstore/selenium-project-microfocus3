@@ -1,15 +1,17 @@
 package com.microfocus.advance;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import java.io.File;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Demo6ChromeOptions {
+public class Demo7ShadowElements {
     public static void main(String[] args) {
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("download.default_directory", "C:\\Mine\\New folder");
